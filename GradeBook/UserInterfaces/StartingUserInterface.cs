@@ -42,7 +42,7 @@ namespace GradeBook.UserInterfaces
             var name = parts[1];
             var type = parts[2];
             var isWeighted = false;
-            bool.TryParse(parts[4], out isWeighted);
+            bool.TryParse(parts[3], out isWeighted);
             switch (type)
             {
                 case "standard":
